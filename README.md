@@ -8,11 +8,11 @@ https://www.kaggle.com/competitions/spaceship-titanic/overview
 |ブランチ|役割|
 |---|---|
 |main|成果物用|
-|dvelop/merging|内部統合用|
-|develop/${機能名}|個別機能開発用|
+|develop/merging|内部統合用|
+|feature/${機能名}|個別機能開発用|
 
 ※PullRequestは1つ上のブランチに対して行う  
-`develop`/`${機能名}` → `develop`/`merging` →`main`
+`feature`/`${機能名}` → `develop`/`merging` →`main`
 
 ### 作業中の注意事項
 - GitへPushする前に必ず動作確認を行い正常に動作する事をチェックする
