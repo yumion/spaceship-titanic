@@ -1,6 +1,19 @@
 # spaceship-titanic
 https://www.kaggle.com/competitions/spaceship-titanic/overview
 
+## ディレクトリ構成
+```
+dataset/  # データセット
+|- train.csv
+|- test.csv
+|- sample_submission.csv
+src/: ソースコード
+|- notebook/  # jupyter notebook
+|- hoge.py  # 実行用ファイル
+submit/  # 提出用フォルダ
+|- 20220523_lgbm_submit.csv  # 日付とモデル・特徴量を書く
+```
+
 ## gitブランチ戦略
 - GitHubフローを基に以下運用方針を作成
 
