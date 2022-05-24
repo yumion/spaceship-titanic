@@ -7,7 +7,7 @@ dataset/  # データセット
 |- train.csv
 |- test.csv
 |- sample_submission.csv
-src/: ソースコード
+src/ #  ソースコード
 |- notebook/  # jupyter notebook
 |- hoge.py  # 実行用ファイル
 submit/  # 提出用フォルダ
