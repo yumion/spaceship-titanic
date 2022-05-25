@@ -32,6 +32,7 @@ submit/  # 提出用フォルダ
 - 作業準備
   - [Gitのインストール](https://gitforwindows.org/)(optional)
   - [Forkのインストール](https://git-fork.com/)(optional)
+  - `git clone https://github.com/yumion/spaceship-titanic.git`をターミナルで実行
 - 作業前
   - `git fetch`, `git pull`コマンドを実施し、ローカルリポジトリを最新化する
 - 作業中
@@ -39,6 +40,10 @@ submit/  # 提出用フォルダ
 - コンフリクト発生時
   - ForkなどのGUIツールもしくはローカルファイルを確認し、反映したい変更を選択する
 - 作業後
-  - `Git Push`する前に必ず動作確認を行い正常に動作する事をチェックする
+  1. `git status`コマンドでローカルリポジトリの状態を確認する
+  1. `git add .`コマンドでローカルの変更を取り込む
+  1. `git commit -m "メッセージを記載"`コマンドでメッセージを記載しコミット
+  1. `git push`コマンドでリモートリポジトリにPush
+  - `git Push`する前に必ず動作確認を行い正常に動作する事をチェックする
   - Descriptionは最低限レビューワーが理解できるように記載する
   - ファイルをリネームする際は`git mv`コマンドを利用し変更をトラッキングできるようにする
