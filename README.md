@@ -8,8 +8,9 @@ dataset/  # データセット
 |- test.csv
 |- sample_submission.csv
 src/ #  ソースコード
-|- notebook/  # jupyter notebook
-|- hoge.py  # 実行用ファイル
+|- analysis/  # EDA用
+|- experiment/  # モデリング用
+|- hoge.py  # モジュールとか
 submit/  # 提出用フォルダ
 |- 20220523_lgbm_submit.csv  # 日付とモデル・特徴量を書く
 ```
